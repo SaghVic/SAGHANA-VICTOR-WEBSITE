@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Rubik", sans-serif;
+}
+
+.navbar {
+  background: rgb(51, 51, 51);
+  color: #fff;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  background-image: url("/img/photo-1502668613814-274b06f1ebb4-1350x900.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.hero {
+  padding: 80px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  text-align: start;
+  font-family: "Rubik", sans-serif;
+}
+.hero p {
+  font-size: 1.2rem;
+  text-align: start;
+  max-width: 75%;
+  text-align: justify;
+  font-family: "Rubik", sans-serif;
+}
+.hero button {
+  background-color: rgb(20, 157, 204);
+  color: white; /* White text */
+  padding: 10px 50px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.logo {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+.download-button {
+  background-color: rgb(255, 51, 102);
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+}
+
+.download-button:hover {
+  background-color: rgb(229, 0, 57);
+}
+
+.section-1 {
+  justify-content: center;
+  align-items: center;
+}
+.section-1 h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.btn-group {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+
+.btn-group .btn-full {
+  background-color: rgb(20, 157, 204);
+  color: white; /* White text */
+  padding: 10px 50px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.btn-group .btn-transparent {
+  background-color: white;
+  color: rgb(11, 86, 111);
+  border: 2px solid rgb(11, 86, 111);
+  padding: 10px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.row {
+  display: flex;
+  row-gap: 10px;
+  /* flex-wrap: wrap;  */
+  /* padding: 5px 5px;  */
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  margin-top: 10px;
+  flex: 25%;
+  padding-left: 110px;
+  max-width: 25%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.row img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 300px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+}
